@@ -7,5 +7,5 @@ def sort_array_desc(arr)
 end
 
 def sort_array_char_count(arr)
-  arr.sort {|i| i.length}
+  arr.sort {|i| i.length}.reverse
 end
