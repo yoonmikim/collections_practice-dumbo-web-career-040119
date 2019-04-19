@@ -8,5 +8,4 @@ end
 
 def sort_array_char_count(arr)
   ar = arr.sort {|i| i.length}
-  return ar.reverse
 end
